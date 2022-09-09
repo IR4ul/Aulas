@@ -7,7 +7,7 @@ public class Ex30809 {
         Scanner teclado = new Scanner(System.in);
       int vetorA[] = new int [4]; 
       int vetorB[] = new int [7];
-      int vetorc[] = new int [11];
+      int vetorC[] = new int [11];
       
       for (int i = 0; i<4;i++){
           System.out.println("Digite o " +(i+1)+ "º valor");
@@ -19,6 +19,12 @@ public class Ex30809 {
           vetorB[i] = teclado.nextInt();
           teclado.close();
         }
-      for(int i = 0;i<11;i++){}
+      for(int i = 0;i<11;i++){
+        if(i<4){
+          vetorC[i] = vetorA[i];
+        }
+        else
+        vetorC[i] = vetorB[i];
+      }
     }
 }
