@@ -5,10 +5,10 @@ public class Aula30_09_2022 {
     public static void main(String[] args) {
         
         //Livro 1
-        Livros livro1 = new Livros();
+        Livros livro1 = new Livros("Java com pelos","Tommy Ramon");
         
-        livro1.autor = "Tommy Ramon";
         livro1.titulo = "Java com pelos";
+        livro1.autor = "Tommy Ramon";
         livro1.paginas = 50;
         livro1.preco = 100.0;
         
@@ -20,9 +20,9 @@ public class Aula30_09_2022 {
         System.out.println("Preço: "+ livro1.preco);
         
         //Livro 2
-        Livros livro2 = new Livros();
-        livro2.autor = "Tommy Ramon";
+        Livros livro2 = new Livros("Java com pelos","Tommy Ramon");      
         livro2.titulo = "Java com pelos";
+        livro2.autor = "Tommy Ramon";
         livro2.paginas = 50;
         livro2.preco = 100.0;
         
