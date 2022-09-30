@@ -34,6 +34,7 @@ public class Aula30_09_2022 {
         Livros livro3 = livro1;
         
         System.out.println(livro3 == livro1);
+        // O valor da true , pois agora os dois livros estão no mesmo local da memoria
     }
     
 }
